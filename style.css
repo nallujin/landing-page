@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,300;1,400&display=swap');
+
+html {
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  padding: 0;
+}
+
+.header {
+  font-family: Roboto, sans-serif;
+  background-color: #1F2937;
+  color: #fff;
+  padding-left: 20rem;
+  padding-right: 20rem;
+}
+
+.header.above {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.header.above>.lefthead {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.header.above>.lefthead>.litlogo {
+  width: 3rem;
+}
+
+.litlogo>.main-logo {
+  width: 100%;
+}
+
+.header.above>.lefthead>.logo {
+  font-size: 1.5rem;
+  cursor: default;
+  display: flex;
+  align-items: center;
+}
+
+.header.above>.lefthead>.logo::selection {
+  background-color: transparent;
+}
+
+.header.above>.righthead {
+  display: flex;
+}
+
+.righthead>.navbar {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  align-items: center;
+  padding: 0;
+  font-size: 18px;
+
+}
+
+.navbar>li, .navbar>li>a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #FFF;
+  font-weight: 400;
+}
+
+.header.below {
+  padding: 5rem 1rem;
+  display: flex;
+}
+
+
+.hero-left {
+  display: flex;
+  /*width: 50%;*/
+  flex-direction: column;
+  gap: 16px;
+}
+
+.readables {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 8px
+}
+
+.readables>.hero-title {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+}
+
+.readables>p.hero-desc {
+  font-size: 18px;
+  color: #E5E7EB;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.hero-button {
+  display: flex;
+}
+
+.header-button {
+  background-color: #3882F6;
+  border: 0;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.hero-right {
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-right>img {
+  width: 80%;
+  display: flex;
+  border-radius: 20px;
+}
+
+.information {
+  background-color: #fff;
+  display: flex;
+  font-family: Roboto, sans-serif;
+  align-items: center;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  padding-bottom: 7rem;
+  flex-direction: column;
+}
+
+.information-title {
+  padding: 2rem 1rem;
+  font-weight: 900;
+  font-size: 2.25rem;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  padding: 0 1rem 1rem 1rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card>p {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 18px;
+}
+
+.card-number {
+  width: 9rem;
+  height: 11rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  border: 2px #3882F6 solid;
+  font-family: "Times New Roman", serif;
+  border-radius: 10px;
+}
+
+.quote-container {
+  padding: 5rem 20rem;
+  font-family: Roboto, sans-serif;
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.the-quote {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.quote-here {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  display: flex;
+}
+
+.quote-source {
+  font-size: 24px;
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 700;
+}
+
+.sign-up-container {
+  padding: 70px 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto, sans-serif;
+  color: #fff;
+}
+
+.sign-up-here {
+  background-color: #3882F6;
+  padding: 30px 100px;
+  display: flex;
+  gap: 100px;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+.sign-up-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.call-title {
+  font-weight: 900;
+}
+
+.call-desc {
+  font-weight: normal;
+}
+
+.sign-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-button>a>button {
+  border: 1px #fff solid;
+  background-color: #3882F6;
+  color: #FFFFFF;
+  padding: 5px 20px;
+  border-radius: 5px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #1F2937;
+  padding: 2rem 20rem;
+  color: #FFF;
+  font-family: Roboto, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
